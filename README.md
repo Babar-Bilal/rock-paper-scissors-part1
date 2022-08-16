@@ -3,7 +3,7 @@ Fixed issues with preivous version:
 2. Fixed cancel button (null) from completely breaking the game.
 
 Known issue:
-1. delay in game loading. 
+1. Delay in game loading. 
 
 New Version:
 1. Write a global array of ['rock', 'paper' 'scissors'].
