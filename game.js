@@ -60,8 +60,8 @@ const winnerCheck = (playerHand, computerHand) => {
 
 const logRounds = (playerChoice, computerChoice, winner, round) => {
     console.log('Round: ', round)
-    console.log('Player Chose: ', playerChoice)
-    console.log('Computer Chose: ', computerChoice)
+    console.log('Player Shoots: ', playerChoice)
+    console.log('Computer Shoots: ', computerChoice)
     console.log(winner, 'won the Round')
     console.log('------------------------------------')
 }
@@ -70,9 +70,9 @@ const logWinner = () => {
     let playerWins = winners.filter((item) => item == 'Player').length
     let computerWins = winners.filter((item) => item == 'Computer').length
     let ties = winners.filter((item) => item == 'Tie').length
+    console.log('Results: ')
     console.log('Player Wins: ', playerWins)
     console.log('Computer Wins: ', computerWins)
     console.log('Ties: ', ties)
+    console.log('------------------------------------')
 }
-
-game()
